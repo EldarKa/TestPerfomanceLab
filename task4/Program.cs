@@ -2,6 +2,7 @@
 {
     internal class Program
     {
+        //dotnet run --project C:\...\task4 -- "C:\...\1.txt"
         static void Main(string[] args)
         {
             string filePath = args[0];
